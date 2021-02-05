@@ -35,17 +35,14 @@ public class MainActivity extends AppCompatActivity {
                 switch (view.getId()){
                     case R.id.btnLogin:
                         if(signedId.equals(inputId.getText().toString()) && googlePwd.equals(inputPwd.getText().toString())){
-                            Log.d("test", "클릭되었습니다.1234");
                             Toast.makeText(MainActivity.this, "환영합니다.", Toast.LENGTH_LONG).show();
                         }
                         else {
                             Toast.makeText(MainActivity.this, "아이디, 비밀번호를 다시 확인해주세요.", Toast.LENGTH_LONG).show();
-                            Log.d("test", "클릭되었습니다.4321");
                         }
                         break;
                     case R.id.btnSignin:
                         Toast.makeText(MainActivity.this, "아직 지원하지 않는 기능입니다.", Toast.LENGTH_LONG).show();
-                        Log.d("test", "클릭되었습니다.");
                         break;
                 }
             }
