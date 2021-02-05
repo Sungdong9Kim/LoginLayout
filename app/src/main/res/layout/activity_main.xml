@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/inputID"
-            android:text="아이디"
+            android:hint="아이디"
             android:background="@drawable/round_edittext"
             android:textSize="24dp"
             android:layout_marginTop="30dp"/>
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/inputPWD"
-            android:text="비밀번호"
+            android:hint="비밀번호"
             android:background="@drawable/round_edittext"
             android:textSize="24dp"
             android:layout_marginTop="10dp"/>
